@@ -8,9 +8,9 @@ import java.io.InputStreamReader;
 public class Main {
     // 1 : 숫자가 모두 내림차순으로 정렬되어있으면, 더 커질 수 없으므로 0출력
     // 2 : 숫자 중에 오름차순으로 정렬된게 있으면, 오름차순이 발견된 idx 중에서 가장 뒤에 있는 idx를 찾기 = point
-    // 3 : point 뒤에 있는 수 중에서 point 해당하는 수보다 크면서 가장 작은 수의 point 구해서 swap
+    // 3 : point 뒤에 있는 수 중에서 point 해당하는 수보다 크면서 가장 작은 수 구해서 swap
     // 4 : swap 하면 그 자리엔 원래 수보다 큰 수가 오게 되므로 이후의 수는 모두 오름차순으로 정렬
-    //   e.g 1234 => 1243 | 6372 => 6732 | 10044 => 10404 | 27711 => 72711 => 71127
+    //   e.g 1234 => 1243 | 6372 => 6732 | 10044 => 10404 | 27711 => 71127
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
